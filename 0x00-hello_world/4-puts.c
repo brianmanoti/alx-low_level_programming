@@ -4,7 +4,7 @@
  * main - prints the phrase "Programming is like building a multilingual puzzle
  * return: 0 if exitted properly
  */
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);

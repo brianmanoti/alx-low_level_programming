@@ -4,7 +4,7 @@
  * starting from 0
  * Return: 0 always
  */
-int main(void)
+main()
 {
 	int a = 0;
 

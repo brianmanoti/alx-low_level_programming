@@ -4,13 +4,12 @@
  * starting from 0
  * Return: 0 always
  */
-main()
+int main(void)
 {
-	int a = 0;
+	int n;
 
-	while (a < 10)
-	{
-		printf(": %d\n");
-		a = a + 1;
-	}
+	for (n = 0; n < 10; n++)
+		printf("%d\n", n);
+	printf("\n");
+	return (0);
 }

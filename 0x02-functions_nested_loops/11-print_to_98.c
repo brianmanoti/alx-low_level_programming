@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_times_table - Prints the times table of the input
+ * print_to_98 - Prints all natural numbers from input to 98,
  * starting with 0
  * @n: The value of the times table to be printed
  */

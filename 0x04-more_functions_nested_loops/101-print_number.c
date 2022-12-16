@@ -2,6 +2,7 @@
 /**
  * print_number - Prints an integer.
  * 101-print_number.c
+ * @n: The integer to be printed.
  */
 void print_number(int n)
 {

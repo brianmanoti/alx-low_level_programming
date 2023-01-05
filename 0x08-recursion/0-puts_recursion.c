@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * void_puts_recursion - prints a string followed by anew line
+ * _puts_recursion - prints a string followed by anew line
  * @s: the string to be printed
  */
 void _puts_recursion(char *s)
 {
-	if(*s)
+	if (*s)
 	{
-		_putchar (*s);
-		_puts_recursion(s+1);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 
 	}
 	else

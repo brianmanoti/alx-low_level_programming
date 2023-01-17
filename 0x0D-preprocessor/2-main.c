@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main: Prints the name of the current file 
+ * main: Prints the name of the current file
  * Desc: Using macro __FILE__.
  * Return: 0 on success
  */

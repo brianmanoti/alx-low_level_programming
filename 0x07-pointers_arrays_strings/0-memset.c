@@ -1,4 +1,4 @@
-#include "main.h"
+#include "function.h"
 /**
  * _memset - Copy b in s n times
  * @s: variable copied into

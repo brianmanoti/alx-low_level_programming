@@ -1,20 +1,17 @@
 #include "main.h"
 /**
- * _memset - fills memeory with a constant byte
- * @s: memory to be filled
- * @b: char to copy
- * @n: number of times to copy b
- *
- * Return: pointer to the memeory area s
+ * _memset - Copy b in s n times
+ * @s: variable copied into
+ * @b: variable copied into s
+ * @n: number of times b is copiedd
+ * Return: s
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
-
-	for (i = 0; i < n; i++)
+	unsigned int i = 0;
+	for (; i < n; i++)
 	{
-		s(i) = b;
+		s[i] = b;
 	}
-
 	return (s);
 }
